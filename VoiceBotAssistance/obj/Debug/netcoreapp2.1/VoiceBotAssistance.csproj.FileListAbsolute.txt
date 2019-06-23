@@ -1,0 +1,14 @@
+C:\Users\lalit\source\repos\VoiceBotAssistance\VoiceBotAssistance\obj\Debug\netcoreapp2.1\VoiceBotAssistance.csprojAssemblyReference.cache
+C:\Users\lalit\source\repos\VoiceBotAssistance\VoiceBotAssistance\obj\Debug\netcoreapp2.1\VoiceBotAssistance.csproj.CoreCompileInputs.cache
+C:\Users\lalit\source\repos\VoiceBotAssistance\VoiceBotAssistance\obj\Debug\netcoreapp2.1\VoiceBotAssistance.AssemblyInfoInputs.cache
+C:\Users\lalit\source\repos\VoiceBotAssistance\VoiceBotAssistance\obj\Debug\netcoreapp2.1\VoiceBotAssistance.AssemblyInfo.cs
+C:\Users\lalit\source\repos\VoiceBotAssistance\VoiceBotAssistance\bin\Debug\netcoreapp2.1\VoiceBotAssistance.deps.json
+C:\Users\lalit\source\repos\VoiceBotAssistance\VoiceBotAssistance\bin\Debug\netcoreapp2.1\VoiceBotAssistance.runtimeconfig.json
+C:\Users\lalit\source\repos\VoiceBotAssistance\VoiceBotAssistance\bin\Debug\netcoreapp2.1\VoiceBotAssistance.runtimeconfig.dev.json
+C:\Users\lalit\source\repos\VoiceBotAssistance\VoiceBotAssistance\bin\Debug\netcoreapp2.1\VoiceBotAssistance.dll
+C:\Users\lalit\source\repos\VoiceBotAssistance\VoiceBotAssistance\bin\Debug\netcoreapp2.1\VoiceBotAssistance.pdb
+C:\Users\lalit\source\repos\VoiceBotAssistance\VoiceBotAssistance\bin\Debug\netcoreapp2.1\SpeechRecognitionLib.dll
+C:\Users\lalit\source\repos\VoiceBotAssistance\VoiceBotAssistance\bin\Debug\netcoreapp2.1\SpeechRecognitionLib.pdb
+C:\Users\lalit\source\repos\VoiceBotAssistance\VoiceBotAssistance\obj\Debug\netcoreapp2.1\VoiceBotAssistance.csproj.CopyComplete
+C:\Users\lalit\source\repos\VoiceBotAssistance\VoiceBotAssistance\obj\Debug\netcoreapp2.1\VoiceBotAssistance.dll
+C:\Users\lalit\source\repos\VoiceBotAssistance\VoiceBotAssistance\obj\Debug\netcoreapp2.1\VoiceBotAssistance.pdb

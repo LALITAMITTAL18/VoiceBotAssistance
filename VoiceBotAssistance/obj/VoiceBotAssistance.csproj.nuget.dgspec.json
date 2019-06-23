@@ -1,0 +1,119 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\lalit\\source\\repos\\VoiceBotAssistance\\VoiceBotAssistance\\VoiceBotAssistance.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\lalit\\source\\repos\\VoiceBotAssistance\\SpeechRecognitionLib\\SpeechRecognitionLib.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\lalit\\source\\repos\\VoiceBotAssistance\\SpeechRecognitionLib\\SpeechRecognitionLib.csproj",
+        "projectName": "SpeechRecognitionLib",
+        "projectPath": "C:\\Users\\lalit\\source\\repos\\VoiceBotAssistance\\SpeechRecognitionLib\\SpeechRecognitionLib.csproj",
+        "packagesPath": "C:\\Users\\lalit\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\lalit\\source\\repos\\VoiceBotAssistance\\SpeechRecognitionLib\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\lalit\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "dependencies": {
+            "Microsoft.CognitiveServices.Speech": {
+              "target": "Package",
+              "version": "[1.5.1, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "C:\\Users\\lalit\\source\\repos\\VoiceBotAssistance\\VoiceBotAssistance\\VoiceBotAssistance.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\lalit\\source\\repos\\VoiceBotAssistance\\VoiceBotAssistance\\VoiceBotAssistance.csproj",
+        "projectName": "VoiceBotAssistance",
+        "projectPath": "C:\\Users\\lalit\\source\\repos\\VoiceBotAssistance\\VoiceBotAssistance\\VoiceBotAssistance.csproj",
+        "packagesPath": "C:\\Users\\lalit\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\lalit\\source\\repos\\VoiceBotAssistance\\VoiceBotAssistance\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\lalit\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.1": {
+            "projectReferences": {
+              "C:\\Users\\lalit\\source\\repos\\VoiceBotAssistance\\SpeechRecognitionLib\\SpeechRecognitionLib.csproj": {
+                "projectPath": "C:\\Users\\lalit\\source\\repos\\VoiceBotAssistance\\SpeechRecognitionLib\\SpeechRecognitionLib.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}
