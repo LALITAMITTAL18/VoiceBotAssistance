@@ -1,37 +1,39 @@
 ﻿using System;
 using Microsoft.CognitiveServices.Speech;
 using System.Threading.Tasks;
+using Utility;
 
 namespace SpeechRecognitionLib
 {
     public class SpeechToText
     {
-        public async Task GetTextFromMicrophone()
-        {
-            SpeechConfig config = SpeechConfig.FromSubscription("", "westus");
+        public async Task<string> ConvertSpeechtoTextFromMicrophone()
+        {            
+            SpeechConfig config = SpeechConfig.FromSubscription(Subscription.key, Subscription.region);
             string result = string.Empty;
 
             using (var recognizer = new SpeechRecognizer(config))
-            {
-                Console.WriteLine("Start saying something...");
+            {                
                 var recognizerAsync = await recognizer.RecognizeOnceAsync().ConfigureAwait(false);
 
-                if (recognizerAsync.Reason == ResultReason.RecognizedSpeech) Console.WriteLine(recognizerAsync.Text);
-                else if (recognizerAsync.Reason == ResultReason.NoMatch) Console.WriteLine("Error");
+                if (recognizerAsync.Reason == ResultReason.RecognizedSpeech) result += recognizerAsync.Text;
+                else if (recognizerAsync.Reason == ResultReason.NoMatch) result += ("Error");
                 else if (recognizerAsync.Reason == ResultReason.Canceled)
                 {
                     var cancellation = CancellationDetails.FromResult(recognizerAsync);
-                    Console.WriteLine($"CANCELED: Reason={cancellation.Reason}");
+                    result +=  ($"CANCELED: Reason={cancellation.Reason}");
 
                     if (cancellation.Reason == CancellationReason.Error)
                     {
-                        Console.WriteLine($"CANCELED: ErrorCode={cancellation.ErrorCode}");
-                        Console.WriteLine($"CANCELED: ErrorDetails={cancellation.ErrorDetails}");
-                        Console.WriteLine($"CANCELED: Did you update the subscription info?");
+                        result += ($"CANCELED: ErrorCode={cancellation.ErrorCode}");
+                        result += ($"CANCELED: ErrorDetails={cancellation.ErrorDetails}");
+                        result += ($"CANCELED: Did you update the subscription info?");
                     }
                 }
 
             }
+
+            return result;
         }
     }
 }

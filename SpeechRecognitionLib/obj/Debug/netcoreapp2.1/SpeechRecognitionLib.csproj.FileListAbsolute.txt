@@ -7,3 +7,6 @@ C:\Users\lalit\source\repos\VoiceBotAssistance\SpeechRecognitionLib\obj\Debug\ne
 C:\Users\lalit\source\repos\VoiceBotAssistance\SpeechRecognitionLib\bin\Debug\netcoreapp2.1\SpeechRecognitionLib.pdb
 C:\Users\lalit\source\repos\VoiceBotAssistance\SpeechRecognitionLib\obj\Debug\netcoreapp2.1\SpeechRecognitionLib.dll
 C:\Users\lalit\source\repos\VoiceBotAssistance\SpeechRecognitionLib\obj\Debug\netcoreapp2.1\SpeechRecognitionLib.pdb
+C:\Users\lalit\source\repos\VoiceBotAssistance\SpeechRecognitionLib\bin\Debug\netcoreapp2.1\Utility.dll
+C:\Users\lalit\source\repos\VoiceBotAssistance\SpeechRecognitionLib\bin\Debug\netcoreapp2.1\Utility.pdb
+C:\Users\lalit\source\repos\VoiceBotAssistance\SpeechRecognitionLib\obj\Debug\netcoreapp2.1\SpeechRecognitionLib.csproj.CopyComplete

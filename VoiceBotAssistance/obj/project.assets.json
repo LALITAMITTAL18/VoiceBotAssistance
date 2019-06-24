@@ -266,13 +266,24 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v2.1",
         "dependencies": {
-          "Microsoft.CognitiveServices.Speech": "1.5.1"
+          "Microsoft.CognitiveServices.Speech": "1.5.1",
+          "Utility": "1.0.0"
         },
         "compile": {
           "bin/placeholder/SpeechRecognitionLib.dll": {}
         },
         "runtime": {
           "bin/placeholder/SpeechRecognitionLib.dll": {}
+        }
+      },
+      "Utility/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.1",
+        "compile": {
+          "bin/placeholder/Utility.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Utility.dll": {}
         }
       }
     }
@@ -876,6 +887,11 @@
       "type": "project",
       "path": "../SpeechRecognitionLib/SpeechRecognitionLib.csproj",
       "msbuildProject": "../SpeechRecognitionLib/SpeechRecognitionLib.csproj"
+    },
+    "Utility/1.0.0": {
+      "type": "project",
+      "path": "../Utility/Utility.csproj",
+      "msbuildProject": "../Utility/Utility.csproj"
     }
   },
   "projectFileDependencyGroups": {

@@ -1,0 +1,12 @@
+C:\Users\lalit\source\repos\VoiceBotAssistance\SpeechRecognitionLib\bin\x64\Debug\netcoreapp2.1\SpeechRecognitionLib.deps.json
+C:\Users\lalit\source\repos\VoiceBotAssistance\SpeechRecognitionLib\bin\x64\Debug\netcoreapp2.1\SpeechRecognitionLib.dll
+C:\Users\lalit\source\repos\VoiceBotAssistance\SpeechRecognitionLib\bin\x64\Debug\netcoreapp2.1\SpeechRecognitionLib.pdb
+C:\Users\lalit\source\repos\VoiceBotAssistance\SpeechRecognitionLib\bin\x64\Debug\netcoreapp2.1\Utility.dll
+C:\Users\lalit\source\repos\VoiceBotAssistance\SpeechRecognitionLib\bin\x64\Debug\netcoreapp2.1\Utility.pdb
+C:\Users\lalit\source\repos\VoiceBotAssistance\SpeechRecognitionLib\obj\x64\Debug\netcoreapp2.1\SpeechRecognitionLib.csprojAssemblyReference.cache
+C:\Users\lalit\source\repos\VoiceBotAssistance\SpeechRecognitionLib\obj\x64\Debug\netcoreapp2.1\SpeechRecognitionLib.csproj.CoreCompileInputs.cache
+C:\Users\lalit\source\repos\VoiceBotAssistance\SpeechRecognitionLib\obj\x64\Debug\netcoreapp2.1\SpeechRecognitionLib.AssemblyInfoInputs.cache
+C:\Users\lalit\source\repos\VoiceBotAssistance\SpeechRecognitionLib\obj\x64\Debug\netcoreapp2.1\SpeechRecognitionLib.AssemblyInfo.cs
+C:\Users\lalit\source\repos\VoiceBotAssistance\SpeechRecognitionLib\obj\x64\Debug\netcoreapp2.1\SpeechRecognitionLib.csproj.CopyComplete
+C:\Users\lalit\source\repos\VoiceBotAssistance\SpeechRecognitionLib\obj\x64\Debug\netcoreapp2.1\SpeechRecognitionLib.dll
+C:\Users\lalit\source\repos\VoiceBotAssistance\SpeechRecognitionLib\obj\x64\Debug\netcoreapp2.1\SpeechRecognitionLib.pdb

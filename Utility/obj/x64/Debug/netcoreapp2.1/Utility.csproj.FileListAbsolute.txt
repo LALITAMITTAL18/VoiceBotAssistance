@@ -1,0 +1,9 @@
+C:\Users\lalit\source\repos\VoiceBotAssistance\Utility\bin\x64\Debug\netcoreapp2.1\Utility.deps.json
+C:\Users\lalit\source\repos\VoiceBotAssistance\Utility\bin\x64\Debug\netcoreapp2.1\Utility.dll
+C:\Users\lalit\source\repos\VoiceBotAssistance\Utility\bin\x64\Debug\netcoreapp2.1\Utility.pdb
+C:\Users\lalit\source\repos\VoiceBotAssistance\Utility\obj\x64\Debug\netcoreapp2.1\Utility.csprojAssemblyReference.cache
+C:\Users\lalit\source\repos\VoiceBotAssistance\Utility\obj\x64\Debug\netcoreapp2.1\Utility.csproj.CoreCompileInputs.cache
+C:\Users\lalit\source\repos\VoiceBotAssistance\Utility\obj\x64\Debug\netcoreapp2.1\Utility.AssemblyInfoInputs.cache
+C:\Users\lalit\source\repos\VoiceBotAssistance\Utility\obj\x64\Debug\netcoreapp2.1\Utility.AssemblyInfo.cs
+C:\Users\lalit\source\repos\VoiceBotAssistance\Utility\obj\x64\Debug\netcoreapp2.1\Utility.dll
+C:\Users\lalit\source\repos\VoiceBotAssistance\Utility\obj\x64\Debug\netcoreapp2.1\Utility.pdb

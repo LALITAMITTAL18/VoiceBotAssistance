@@ -1,5 +1,6 @@
 ﻿using System;
 using SpeechRecognitionLib;
+using System.Threading.Tasks;
 
 namespace VoiceBotAssistance
 {
@@ -7,10 +8,22 @@ namespace VoiceBotAssistance
     {
         static void Main(string[] args)
         {
-            SpeechToText obj = new SpeechToText();
-            obj.GetTextFromMicrophone().Wait();
+            Console.WriteLine("Start saying something...");            
+            
+            Task<string> response =  StartSpeechToText();
+            Console.WriteLine("You said" + response.Result);
+            TextToSpeech textToSpeech = new TextToSpeech();
+
+            textToSpeech.CovertTextToSpeechFromMicrophone(response.Result.ToString()).Wait();
+
             Console.WriteLine("Please press a key to continue.");
             Console.ReadLine();
+        }
+
+        private static async Task<string> StartSpeechToText()
+        {
+            SpeechToText obj = new SpeechToText();
+            return await obj.ConvertSpeechtoTextFromMicrophone();
         }
     }
 }
