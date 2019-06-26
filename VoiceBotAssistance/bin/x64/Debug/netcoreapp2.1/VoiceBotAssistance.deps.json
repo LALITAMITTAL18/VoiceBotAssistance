@@ -1,13 +1,15 @@
 {
   "runtimeTarget": {
     "name": ".NETCoreApp,Version=v2.1",
-    "signature": "d8b6c24232d116d3dc01c1b598081bbfeea79124"
+    "signature": "20f6e2cecd9c5af663916967cb1e87fbe56b595a"
   },
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v2.1": {
       "VoiceBotAssistance/1.0.0": {
         "dependencies": {
+          "QNAServiceData": "1.0.0",
+          "QandAService": "1.0.0",
           "SpeechRecognitionLib": "1.0.0"
         },
         "runtime": {
@@ -76,6 +78,29 @@
           }
         }
       },
+      "Newtonsoft.Json/12.0.2": {
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+            "assemblyVersion": "12.0.0.0",
+            "fileVersion": "12.0.2.23222"
+          }
+        }
+      },
+      "QandAService/1.0.0": {
+        "dependencies": {
+          "Newtonsoft.Json": "12.0.2",
+          "QNAServiceData": "1.0.0",
+          "Utility": "1.0.0"
+        },
+        "runtime": {
+          "QandAService.dll": {}
+        }
+      },
+      "QNAServiceData/1.0.0": {
+        "runtime": {
+          "Model.dll": {}
+        }
+      },
       "SpeechRecognitionLib/1.0.0": {
         "dependencies": {
           "Microsoft.CognitiveServices.Speech": "1.5.1",
@@ -104,6 +129,23 @@
       "sha512": "sha512-P3e7xGp493ufNBwVW3Z3nGnhVE3CB/JhvbnBhM2ohSeqOwc0TuHR/h7w2fJ03lOwNiKrd7SQ5FBPaD/mIAPoWw==",
       "path": "microsoft.cognitiveservices.speech/1.5.1",
       "hashPath": "microsoft.cognitiveservices.speech.1.5.1.nupkg.sha512"
+    },
+    "Newtonsoft.Json/12.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-rTK0s2EKlfHsQsH6Yx2smvcTCeyoDNgCW7FEYyV01drPlh2T243PR2DiDXqtC5N4GDm4Ma/lkxfW5a/4793vbA==",
+      "path": "newtonsoft.json/12.0.2",
+      "hashPath": "newtonsoft.json.12.0.2.nupkg.sha512"
+    },
+    "QandAService/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "QNAServiceData/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     },
     "SpeechRecognitionLib/1.0.0": {
       "type": "project",

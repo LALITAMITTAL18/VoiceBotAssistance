@@ -17,14 +17,13 @@ namespace SpeechRecognitionLib
             // Creates a speech synthesizer using the default speaker as audio output.
             using (var synthesizer = new SpeechSynthesizer(config))
             {
-                // Receive a text from console input and synthesize it to speaker.
-                TextToSpeek = "you said" + TextToSpeek;
+                // Receive a text from console input and synthesize it to speaker.               
 
                 using (var result = await synthesizer.SpeakTextAsync(TextToSpeek))
                 {
                     if (result.Reason == ResultReason.SynthesizingAudioCompleted)
                     {
-                        Console.WriteLine($"Speech synthesized to speaker for text [{TextToSpeek}]");
+                        Console.WriteLine($"Voice Bot Assistance said :  [{TextToSpeek}]");
                     }
                     else if (result.Reason == ResultReason.Canceled)
                     {
@@ -41,8 +40,8 @@ namespace SpeechRecognitionLib
                 }
 
                 // This is to give some time for the speaker to finish playing back the audio
-                Console.WriteLine("Press any key to exit...");
-                Console.ReadKey();
+                //Console.WriteLine("Press any key to exit...");
+                //Console.ReadKey();
             }
         }
     }

@@ -4,6 +4,80 @@
     "C:\\Users\\lalit\\source\\repos\\VoiceBotAssistance\\VoiceBotAssistance\\VoiceBotAssistance.csproj": {}
   },
   "projects": {
+    "C:\\Users\\lalit\\source\\repos\\VoiceBotAssistance\\Model\\QNAServiceData.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\lalit\\source\\repos\\VoiceBotAssistance\\Model\\QNAServiceData.csproj",
+        "projectName": "QNAServiceData",
+        "projectPath": "C:\\Users\\lalit\\source\\repos\\VoiceBotAssistance\\Model\\QNAServiceData.csproj"
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
+    "C:\\Users\\lalit\\source\\repos\\VoiceBotAssistance\\QandAService\\QandAService.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\lalit\\source\\repos\\VoiceBotAssistance\\QandAService\\QandAService.csproj",
+        "projectName": "QandAService",
+        "projectPath": "C:\\Users\\lalit\\source\\repos\\VoiceBotAssistance\\QandAService\\QandAService.csproj",
+        "packagesPath": "C:\\Users\\lalit\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\lalit\\source\\repos\\VoiceBotAssistance\\QandAService\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\lalit\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.1": {
+            "projectReferences": {
+              "C:\\Users\\lalit\\source\\repos\\VoiceBotAssistance\\Model\\QNAServiceData.csproj": {
+                "projectPath": "C:\\Users\\lalit\\source\\repos\\VoiceBotAssistance\\Model\\QNAServiceData.csproj"
+              },
+              "C:\\Users\\lalit\\source\\repos\\VoiceBotAssistance\\Utility\\Utility.csproj": {
+                "projectPath": "C:\\Users\\lalit\\source\\repos\\VoiceBotAssistance\\Utility\\Utility.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.2, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
     "C:\\Users\\lalit\\source\\repos\\VoiceBotAssistance\\SpeechRecognitionLib\\SpeechRecognitionLib.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -142,6 +216,12 @@
         "frameworks": {
           "netcoreapp2.1": {
             "projectReferences": {
+              "C:\\Users\\lalit\\source\\repos\\VoiceBotAssistance\\Model\\QNAServiceData.csproj": {
+                "projectPath": "C:\\Users\\lalit\\source\\repos\\VoiceBotAssistance\\Model\\QNAServiceData.csproj"
+              },
+              "C:\\Users\\lalit\\source\\repos\\VoiceBotAssistance\\QandAService\\QandAService.csproj": {
+                "projectPath": "C:\\Users\\lalit\\source\\repos\\VoiceBotAssistance\\QandAService\\QandAService.csproj"
+              },
               "C:\\Users\\lalit\\source\\repos\\VoiceBotAssistance\\SpeechRecognitionLib\\SpeechRecognitionLib.csproj": {
                 "projectPath": "C:\\Users\\lalit\\source\\repos\\VoiceBotAssistance\\SpeechRecognitionLib\\SpeechRecognitionLib.csproj"
               }

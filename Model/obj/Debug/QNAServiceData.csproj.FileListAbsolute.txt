@@ -1,0 +1,6 @@
+C:\Users\lalit\source\repos\VoiceBotAssistance\Model\bin\Debug\Model.dll
+C:\Users\lalit\source\repos\VoiceBotAssistance\Model\bin\Debug\Model.pdb
+C:\Users\lalit\source\repos\VoiceBotAssistance\Model\obj\Debug\QNAServiceData.csprojAssemblyReference.cache
+C:\Users\lalit\source\repos\VoiceBotAssistance\Model\obj\Debug\QNAServiceData.csproj.CoreCompileInputs.cache
+C:\Users\lalit\source\repos\VoiceBotAssistance\Model\obj\Debug\Model.dll
+C:\Users\lalit\source\repos\VoiceBotAssistance\Model\obj\Debug\Model.pdb

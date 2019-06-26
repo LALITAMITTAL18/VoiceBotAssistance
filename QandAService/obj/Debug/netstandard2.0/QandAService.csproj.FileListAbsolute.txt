@@ -1,0 +1,9 @@
+C:\Users\lalit\source\repos\VoiceBotAssistance\QandAService\bin\Debug\netstandard2.0\QandAService.deps.json
+C:\Users\lalit\source\repos\VoiceBotAssistance\QandAService\bin\Debug\netstandard2.0\QandAService.dll
+C:\Users\lalit\source\repos\VoiceBotAssistance\QandAService\obj\Debug\netstandard2.0\QandAService.csprojAssemblyReference.cache
+C:\Users\lalit\source\repos\VoiceBotAssistance\QandAService\obj\Debug\netstandard2.0\QandAService.csproj.CoreCompileInputs.cache
+C:\Users\lalit\source\repos\VoiceBotAssistance\QandAService\obj\Debug\netstandard2.0\QandAService.AssemblyInfoInputs.cache
+C:\Users\lalit\source\repos\VoiceBotAssistance\QandAService\obj\Debug\netstandard2.0\QandAService.AssemblyInfo.cs
+C:\Users\lalit\source\repos\VoiceBotAssistance\QandAService\bin\Debug\netstandard2.0\QandAService.pdb
+C:\Users\lalit\source\repos\VoiceBotAssistance\QandAService\obj\Debug\netstandard2.0\QandAService.dll
+C:\Users\lalit\source\repos\VoiceBotAssistance\QandAService\obj\Debug\netstandard2.0\QandAService.pdb

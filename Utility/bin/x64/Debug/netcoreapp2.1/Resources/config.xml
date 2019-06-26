@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<root>
+ <config>
+  <key>--Your Microsoft.Speech Key--</key>
+  <region>--region what you have selected in Microsoft.Speech--</region>
+   <QandAKey>--Your QNA maker Key--</QandAKey>
+   <EndPointKey>--Your QNA maker End point--</EndPointKey>
+   <kbID>--Your QNA maker KB ID--</kbID>
+ </config>
+</root>

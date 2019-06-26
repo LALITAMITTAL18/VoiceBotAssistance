@@ -1,0 +1,15 @@
+C:\Users\lalit\source\repos\VoiceBotAssistance\QandAService\bin\Debug\netcoreapp2.1\Resources\config.xml
+C:\Users\lalit\source\repos\VoiceBotAssistance\QandAService\bin\Debug\netcoreapp2.1\QandAService.deps.json
+C:\Users\lalit\source\repos\VoiceBotAssistance\QandAService\bin\Debug\netcoreapp2.1\QandAService.dll
+C:\Users\lalit\source\repos\VoiceBotAssistance\QandAService\bin\Debug\netcoreapp2.1\QandAService.pdb
+C:\Users\lalit\source\repos\VoiceBotAssistance\QandAService\bin\Debug\netcoreapp2.1\Model.dll
+C:\Users\lalit\source\repos\VoiceBotAssistance\QandAService\bin\Debug\netcoreapp2.1\Utility.dll
+C:\Users\lalit\source\repos\VoiceBotAssistance\QandAService\bin\Debug\netcoreapp2.1\Model.pdb
+C:\Users\lalit\source\repos\VoiceBotAssistance\QandAService\bin\Debug\netcoreapp2.1\Utility.pdb
+C:\Users\lalit\source\repos\VoiceBotAssistance\QandAService\obj\Debug\netcoreapp2.1\QandAService.csprojAssemblyReference.cache
+C:\Users\lalit\source\repos\VoiceBotAssistance\QandAService\obj\Debug\netcoreapp2.1\QandAService.csproj.CoreCompileInputs.cache
+C:\Users\lalit\source\repos\VoiceBotAssistance\QandAService\obj\Debug\netcoreapp2.1\QandAService.AssemblyInfoInputs.cache
+C:\Users\lalit\source\repos\VoiceBotAssistance\QandAService\obj\Debug\netcoreapp2.1\QandAService.AssemblyInfo.cs
+C:\Users\lalit\source\repos\VoiceBotAssistance\QandAService\obj\Debug\netcoreapp2.1\QandAService.csproj.CopyComplete
+C:\Users\lalit\source\repos\VoiceBotAssistance\QandAService\obj\Debug\netcoreapp2.1\QandAService.dll
+C:\Users\lalit\source\repos\VoiceBotAssistance\QandAService\obj\Debug\netcoreapp2.1\QandAService.pdb

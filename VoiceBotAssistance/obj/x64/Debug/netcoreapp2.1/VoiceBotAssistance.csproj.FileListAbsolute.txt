@@ -1,10 +1,15 @@
+C:\Users\lalit\source\repos\VoiceBotAssistance\VoiceBotAssistance\bin\x64\Debug\netcoreapp2.1\Resources\config.xml
 C:\Users\lalit\source\repos\VoiceBotAssistance\VoiceBotAssistance\bin\x64\Debug\netcoreapp2.1\VoiceBotAssistance.deps.json
 C:\Users\lalit\source\repos\VoiceBotAssistance\VoiceBotAssistance\bin\x64\Debug\netcoreapp2.1\VoiceBotAssistance.runtimeconfig.json
 C:\Users\lalit\source\repos\VoiceBotAssistance\VoiceBotAssistance\bin\x64\Debug\netcoreapp2.1\VoiceBotAssistance.runtimeconfig.dev.json
 C:\Users\lalit\source\repos\VoiceBotAssistance\VoiceBotAssistance\bin\x64\Debug\netcoreapp2.1\VoiceBotAssistance.dll
 C:\Users\lalit\source\repos\VoiceBotAssistance\VoiceBotAssistance\bin\x64\Debug\netcoreapp2.1\VoiceBotAssistance.pdb
+C:\Users\lalit\source\repos\VoiceBotAssistance\VoiceBotAssistance\bin\x64\Debug\netcoreapp2.1\Model.dll
+C:\Users\lalit\source\repos\VoiceBotAssistance\VoiceBotAssistance\bin\x64\Debug\netcoreapp2.1\QandAService.dll
 C:\Users\lalit\source\repos\VoiceBotAssistance\VoiceBotAssistance\bin\x64\Debug\netcoreapp2.1\SpeechRecognitionLib.dll
 C:\Users\lalit\source\repos\VoiceBotAssistance\VoiceBotAssistance\bin\x64\Debug\netcoreapp2.1\Utility.dll
+C:\Users\lalit\source\repos\VoiceBotAssistance\VoiceBotAssistance\bin\x64\Debug\netcoreapp2.1\Model.pdb
+C:\Users\lalit\source\repos\VoiceBotAssistance\VoiceBotAssistance\bin\x64\Debug\netcoreapp2.1\QandAService.pdb
 C:\Users\lalit\source\repos\VoiceBotAssistance\VoiceBotAssistance\bin\x64\Debug\netcoreapp2.1\SpeechRecognitionLib.pdb
 C:\Users\lalit\source\repos\VoiceBotAssistance\VoiceBotAssistance\bin\x64\Debug\netcoreapp2.1\Utility.pdb
 C:\Users\lalit\source\repos\VoiceBotAssistance\VoiceBotAssistance\obj\x64\Debug\netcoreapp2.1\VoiceBotAssistance.csprojAssemblyReference.cache

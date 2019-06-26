@@ -7,10 +7,16 @@ namespace Utility
     {
         public static string key;
         public static string region;
+        public static string QandAKey;
+        public static string kbID;
+        public static string EndPointKey;
 
+        /// <summary>
+        /// get all configuration value map to field from Azure services
+        /// </summary>
         static Subscription()
-        {
-            string path = @"C:\Users\lalit\source\repos\config.xml";
+        {            
+            string path = System.IO.Path.GetFullPath(".\\Resources\\config.xml");
 
             using (XmlReader reader = XmlReader.Create(path))
             {
@@ -27,6 +33,16 @@ namespace Utility
                             case "region":
                                 region = reader.ReadString();
                                 break;
+                            case "QandAKey":
+                                QandAKey = reader.ReadString();
+                                break;
+                            case "kbID":
+                                kbID = reader.ReadString();
+                                break;
+                            case "EndPointKey":
+                                EndPointKey = reader.ReadString();
+                                break;
+
                         }
                     }                    
                 }

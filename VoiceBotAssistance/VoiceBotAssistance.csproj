@@ -7,6 +7,8 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\Model\QNAServiceData.csproj" />
+    <ProjectReference Include="..\QandAService\QandAService.csproj" />
     <ProjectReference Include="..\SpeechRecognitionLib\SpeechRecognitionLib.csproj" />
   </ItemGroup>
 

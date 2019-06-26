@@ -1,3 +1,4 @@
+C:\Users\lalit\source\repos\VoiceBotAssistance\SpeechRecognitionLib\bin\x64\Debug\netcoreapp2.1\Resources\config.xml
 C:\Users\lalit\source\repos\VoiceBotAssistance\SpeechRecognitionLib\bin\x64\Debug\netcoreapp2.1\SpeechRecognitionLib.deps.json
 C:\Users\lalit\source\repos\VoiceBotAssistance\SpeechRecognitionLib\bin\x64\Debug\netcoreapp2.1\SpeechRecognitionLib.dll
 C:\Users\lalit\source\repos\VoiceBotAssistance\SpeechRecognitionLib\bin\x64\Debug\netcoreapp2.1\SpeechRecognitionLib.pdb

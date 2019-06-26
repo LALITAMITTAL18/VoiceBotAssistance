@@ -262,6 +262,39 @@
           "build/netstandard2.0/NETStandard.Library.targets": {}
         }
       },
+      "Newtonsoft.Json/12.0.2": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        }
+      },
+      "QandAService/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.1",
+        "dependencies": {
+          "Newtonsoft.Json": "12.0.2",
+          "QNAServiceData": "1.0.0",
+          "Utility": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/QandAService.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/QandAService.dll": {}
+        }
+      },
+      "QNAServiceData/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/QNAServiceData.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/QNAServiceData.dll": {}
+        }
+      },
       "SpeechRecognitionLib/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v2.1",
@@ -883,6 +916,46 @@
         "netstandard.library.nuspec"
       ]
     },
+    "Newtonsoft.Json/12.0.2": {
+      "sha512": "rTK0s2EKlfHsQsH6Yx2smvcTCeyoDNgCW7FEYyV01drPlh2T243PR2DiDXqtC5N4GDm4Ma/lkxfW5a/4793vbA==",
+      "type": "package",
+      "path": "newtonsoft.json/12.0.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.md",
+        "lib/net20/Newtonsoft.Json.dll",
+        "lib/net20/Newtonsoft.Json.xml",
+        "lib/net35/Newtonsoft.Json.dll",
+        "lib/net35/Newtonsoft.Json.xml",
+        "lib/net40/Newtonsoft.Json.dll",
+        "lib/net40/Newtonsoft.Json.xml",
+        "lib/net45/Newtonsoft.Json.dll",
+        "lib/net45/Newtonsoft.Json.xml",
+        "lib/netstandard1.0/Newtonsoft.Json.dll",
+        "lib/netstandard1.0/Newtonsoft.Json.xml",
+        "lib/netstandard1.3/Newtonsoft.Json.dll",
+        "lib/netstandard1.3/Newtonsoft.Json.xml",
+        "lib/netstandard2.0/Newtonsoft.Json.dll",
+        "lib/netstandard2.0/Newtonsoft.Json.xml",
+        "lib/portable-net40+sl5+win8+wp8+wpa81/Newtonsoft.Json.dll",
+        "lib/portable-net40+sl5+win8+wp8+wpa81/Newtonsoft.Json.xml",
+        "lib/portable-net45+win8+wp8+wpa81/Newtonsoft.Json.dll",
+        "lib/portable-net45+win8+wp8+wpa81/Newtonsoft.Json.xml",
+        "newtonsoft.json.12.0.2.nupkg.sha512",
+        "newtonsoft.json.nuspec"
+      ]
+    },
+    "QandAService/1.0.0": {
+      "type": "project",
+      "path": "../QandAService/QandAService.csproj",
+      "msbuildProject": "../QandAService/QandAService.csproj"
+    },
+    "QNAServiceData/1.0.0": {
+      "type": "project",
+      "path": "../Model/QNAServiceData.csproj",
+      "msbuildProject": "../Model/QNAServiceData.csproj"
+    },
     "SpeechRecognitionLib/1.0.0": {
       "type": "project",
       "path": "../SpeechRecognitionLib/SpeechRecognitionLib.csproj",
@@ -897,6 +970,8 @@
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.1": [
       "Microsoft.NETCore.App >= 2.1.0",
+      "QNAServiceData >= 1.0.0",
+      "QandAService >= 1.0.0",
       "SpeechRecognitionLib >= 1.0.0"
     ]
   },
@@ -930,6 +1005,12 @@
       "frameworks": {
         "netcoreapp2.1": {
           "projectReferences": {
+            "C:\\Users\\lalit\\source\\repos\\VoiceBotAssistance\\Model\\QNAServiceData.csproj": {
+              "projectPath": "C:\\Users\\lalit\\source\\repos\\VoiceBotAssistance\\Model\\QNAServiceData.csproj"
+            },
+            "C:\\Users\\lalit\\source\\repos\\VoiceBotAssistance\\QandAService\\QandAService.csproj": {
+              "projectPath": "C:\\Users\\lalit\\source\\repos\\VoiceBotAssistance\\QandAService\\QandAService.csproj"
+            },
             "C:\\Users\\lalit\\source\\repos\\VoiceBotAssistance\\SpeechRecognitionLib\\SpeechRecognitionLib.csproj": {
               "projectPath": "C:\\Users\\lalit\\source\\repos\\VoiceBotAssistance\\SpeechRecognitionLib\\SpeechRecognitionLib.csproj"
             }
