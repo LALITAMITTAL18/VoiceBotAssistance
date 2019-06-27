@@ -4,7 +4,7 @@ I have used Microsoft Cognitive Services to bulid this app. When user speaks it 
 
 To start using this service , update values in configuration file which is present in Utility/Resource folder. It looks something like this:
 
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+"<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <root>
  <config>
   <key>--Your Microsoft.Speech Key--</key>
@@ -13,7 +13,7 @@ To start using this service , update values in configuration file which is prese
    <EndPointKey>--Your QNA maker End point--</EndPointKey>
    <kbID>--Your QNA maker KB ID--</kbID>
  </config>
-</root>
+</root> "
 
 for more information you can follow my blog here :
 
