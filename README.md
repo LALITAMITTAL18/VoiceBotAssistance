@@ -2,8 +2,7 @@
 
 I have used Microsoft Cognitive Services to bulid this app. When user speaks it converts it to Text using Microsoft.Speech Azure Service and send the Text to QNA maker service. This Azure Service searches for answer for the question asked via a POST method and sends back to the Calling program i.e. VoiceBotAssitance. Then this Answer sent back to Microsoft.Speech service to play it on our speaker.
 
-To start using this service , update values in configuration file which is present in Utility/Resource folder. It looks something like this:
-
+To start using this service , update values in configuration file which is present in Utility/Resource folder for below values :
 "<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <root>
  <config>
